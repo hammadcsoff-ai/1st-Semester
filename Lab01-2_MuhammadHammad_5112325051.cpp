@@ -3,13 +3,12 @@ using namespace std;
 
 int main (){
   // Storing my name, registration number and institute name
-  str name = "Muhammad Hammad";
-  str reg = "5112325051";
-  str ins = "Ibadat International University, Islamabad";
+  string name = "Muhammad Hammad";
+  string reg = "5112325051";
+  string ins = "Ibadat International University, Islamabad";
 
   // Displaying one by one
-  cout<<name<<endl;
-  cout<<reg<<endl;
-  cout<<ins<<endl;
-  
+  cout<<"My name is "<<name<<endl;
+  cout<<"My registration number is "<<reg<<endl;
+  cout<<"My institue name is "<<ins<<endl;
 }
