@@ -1,3 +1,4 @@
+// // Write a code to display your name, registration number, and institute name.
 #include<iostream>
 using namespace std;
 
