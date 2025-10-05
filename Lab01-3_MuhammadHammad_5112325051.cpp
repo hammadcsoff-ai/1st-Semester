@@ -1,3 +1,4 @@
+// Write a code to display the Binary of 4128.
 #include<iostream>
 #include<cmath>
 #include<string>
@@ -22,7 +23,7 @@ string convert(int x){
   // Empty string to store the binary digits one by one
   string binary = "";
   // Breaking recursion once the number is zero
-  if (x == 0) return 0;
+  if (x == 0) return "0";
 
   // Mathematical calculations
   while (x > 0){
