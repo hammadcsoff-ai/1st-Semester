@@ -1,9 +1,10 @@
+// Write a C++ program to print a couple of lines
 #include<iostream>
 using namespace std;
 
 int main () {
-  // This line prints "You are 10 years old."
+  // This line prints, "You are 10 years old."
   cout<<"You are 10 years old."<<endl;
-  // This line prints "You are too young to play the game."
+  // This line prints, "You are too young to play the game."
   cout<<"You are too young to play the game."<<endl;
 }
