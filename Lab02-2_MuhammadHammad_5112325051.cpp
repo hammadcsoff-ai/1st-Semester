@@ -1,3 +1,4 @@
+// Create a C++ program that declares and initializes variables of different data types (int, float, char). Output their values along with their data types.
 #include <iostream>
 #include <typeinfo>
 using namespace std;
