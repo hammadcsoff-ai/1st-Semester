@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int calc(int a, int b, char c);
+int perform_Assignment(int a, int b, char c);
 
 int main()
 {
@@ -19,14 +19,14 @@ int main()
     cin >> b;
     
     // Calling function on the input
-    ans = calc(a, b, c);
+    ans = perform_Assignment(a, b, c);
     
     // Displaying the answer
     cout<<"The answer is "<<ans<<endl;
 }
 
 // Function to perform the calculations
-int calc(int a, int b, char c)
+int perform_Assignment(int a, int b, char c)
 {
     switch (c) 
     {
