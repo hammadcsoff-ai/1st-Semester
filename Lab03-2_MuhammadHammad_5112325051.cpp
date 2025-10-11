@@ -23,4 +23,6 @@ int main ()
     else {
         cout<<"Both numbers are equal."<<endl;
     }
+
+    return 0;
 }
