@@ -23,6 +23,8 @@ int main()
     
     // Calling the function
     logical_Operations(x, y);
+
+    return 0;
 }
 
 // Function to implement logical AND and logical OR operations on boolean variables
