@@ -23,6 +23,8 @@ int main()
     
     // Displaying the answer
     cout<<"The answer is "<<ans<<endl;
+
+    return 0;
 }
 
 // Function to perform the calculations
