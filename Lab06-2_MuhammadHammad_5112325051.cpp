@@ -9,7 +9,7 @@ int main()
     cout<<"Enter number of subjects: ";
     cin >> n;
     int marks[n];
-    cout << "Enter marks of each subject;"<<endl;
+    cout << "Enter marks of each subject:"<<endl;
     for (int i = 0; i < n; i++){
         cin >> marks[i];
     }
