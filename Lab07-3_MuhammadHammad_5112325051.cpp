@@ -26,15 +26,20 @@ int main()
     }
     
     // Displaying the matrices
+    cout<<"Original matrix:"<<endl;
     for (int i = 0; i < rows; i++){
         for (int j = 0; j < col; j++){
-            cout<<matrix[i][j];
+            cout<<matrix[i][j]<<" ";
         }
         cout<<endl;
     }
+    cout<<"\nTranspose of the matrix:"<<endl;
     for (int i = 0; i < rows; i++){
         for (int j = 0; j < col; j++){
-            t_matrix[j][i] = matrix[i][j];
+            cout<<t_matrix[i][j]<<" ";
         }
+        cout<<endl;
     }
+    
+    return 0;
 }
