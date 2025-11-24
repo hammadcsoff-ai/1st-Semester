@@ -16,6 +16,7 @@ int main()
         cin >> data[i][1];
         cout<<"Upto the Month: ";
         cin >> data[i][2];
+        cout<<endl;
     }
 
   // Displaying the data
