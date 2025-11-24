@@ -18,10 +18,10 @@ int main()
     }
     
     // Taking transpose
-    int t_matrix[rows][col];
-    for (int i = 0; i < rows; i++){
-        for (int j = 0; j < col; j++){
-            t_matrix[j][i] = matrix[i][j];
+    int t_matrix[col][rows];
+    for (int i = 0; i < col; i++){
+        for (int j = 0; j < rows; j++){
+            t_matrix[i][j] = matrix[j][i];
         }
     }
     
@@ -34,8 +34,8 @@ int main()
         cout<<endl;
     }
     cout<<"\nTranspose of the matrix:"<<endl;
-    for (int i = 0; i < rows; i++){
-        for (int j = 0; j < col; j++){
+    for (int i = 0; i < col; i++){
+        for (int j = 0; j < rows; j++){
             cout<<t_matrix[i][j]<<" ";
         }
         cout<<endl;
