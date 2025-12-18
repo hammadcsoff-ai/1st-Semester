@@ -2,12 +2,13 @@
 #include<iostream>
 using namespace std;
 
+// Function prototype
 int convert(int x, int method);
 
 int main()
 {
     // Asking user for conversion method
-    int m, given;
+    int m;
     do{
         cout<<"1 for Celsius to Fahrenheit, 2 for Fahrenheit to Celsius: ";
         cin >> m;
@@ -15,6 +16,7 @@ int main()
     while (m == 0 && m != 1);
     
     // Using the conversion 
+    int given;
     if (m == 1){
         cout<<"Celsius: ";
         cin >> given;
