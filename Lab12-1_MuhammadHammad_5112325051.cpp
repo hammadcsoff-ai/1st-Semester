@@ -30,7 +30,6 @@ int volume(int l){
 
 // Function for volume of cylinder
 float volume(int r, int h){
-    float pie = 22.0/7;
-    cout<<pie<<endl;
+    const float pie = 22.0 / 7;
     return pie*r*r*h;
 }
