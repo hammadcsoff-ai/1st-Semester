@@ -9,11 +9,31 @@ struct Book {
     string title;
     string author;
     int year;
-} library[100];
+};
 
 // Table dimensions
 const int totalWidth = 86, idWidth = 10, titleWidth = 30, authorWidth = 25, yearWidth = 8;
-int books = 0; // Books count
+
+// Initialize library with default books
+Book library[100] = {
+    {101, "C++ Programming", "Bjarne Stroustrup", 2013},
+    {102, "The Pragmatic Programmer", "Andrew Hunt", 1999},
+    {103, "Clean Code", "Robert C. Martin", 2008},
+    {104, "Introduction to Algorithms", "Cormen et al.", 2009},
+    {105, "Design Patterns", "Erich Gamma", 1994},
+    {201, "Jannat Ke Pattay", "Nimra Ahmed", 2012},
+    {202, "Peer-e-Kaamil", "Umera Ahmed", 2004},
+    {203, "Namal", "Nimra Ahmed", 2014},
+    {204, "Mushaf", "Nimra Ahmed", 2011},
+    {205, "Aif", "Umera Ahmed", 2019},
+    {216, "Raakh", "Mustansar Hussain Tarar", 2015},
+    {217, "A Thousand Splendid Suns", "Khaled Hosseini", 2007},
+    {218, "The Curious Incident of the Dog in the Night-Time", "Mark Haddon", 2003},
+    {219, "White Nights", "Fyodor Dostoevsky", 1957},
+    {267, "O Jamaalo!", "Naeem Ali", 2026}
+};
+
+int books = 15; // Books count
 
 // Function prototypes
 void addBook();
